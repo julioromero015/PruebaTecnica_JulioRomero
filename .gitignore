@@ -1,0 +1,13 @@
+# .gitignore
+
+# Node.js dependencies
+/node_modules/
+
+# Archivos de configuración locales
+/.env
+
+# Archivos de TypeScript compilados
+/dist/
+
+# Archivos de logs
+*.log

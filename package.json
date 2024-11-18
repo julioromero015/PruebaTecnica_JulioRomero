@@ -1,0 +1,24 @@
+{
+  "name": "api-trucks-locations-orders",
+  "version": "1.0.0",
+  "description": "API para gestionar camiones, ubicaciones y órdenes",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly src/server.ts"
+  },
+  "dependencies": {
+    "axios": "^1.3.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
